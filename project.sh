@@ -1,6 +1,6 @@
 #!/bin/bash
-wget https://www.free-css.com/assets/files/free-css-templates/download/page289/nomad-force.zip
-unzip nomad-force.zip
-mv -v templatemo_567_nomad_force/* /var/www/html/
-rm -rvf templatemo_567_nomad_force/ nomad-force.zip
+wget https://www.free-css.com/assets/files/free-css-templates/download/page290/brighton.zip
+unzip brighton.zip
+mv -v brighton-html/* /var/www/html/
+rm -rvf brighton-html/ brighton.zip
 systemctl restart httpd
