@@ -1,6 +1,6 @@
 #!/bin/bash
-wget https://www.free-css.com/assets/files/free-css-templates/download/page290/brighton.zip
-unzip brighton.zip
-mv -v brighton-html/* /var/www/html/
-rm -rvf brighton-html/ brighton.zip
+wget https://www.free-css.com/assets/files/free-css-templates/download/page289/apollo.zip
+unzip apollo.zip
+mv -v apollo-master/* /var/www/html/
+rm -rvf apollo-master/ apollo.zip
 systemctl restart httpd
